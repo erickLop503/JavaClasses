@@ -1,6 +1,6 @@
 package com.class13;
 
-public class TwoDArraysStrings {
+public class WednesdayReviewClassStringManipulation {
 
 	public static void main(String[] args) {
 
