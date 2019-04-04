@@ -11,8 +11,16 @@ public class Replo {
 //	    Print out the character in the 1st index of the String str
 //	    Print out the character in the 10th index of the String str
 	    
-	    for (int i=0; i<str.length(); i++) {
-	    	System.out.print(str.charAt(5));
-	    }
+	    char bull=str.charAt(5);
+	    System.out.print(bull);
+
+	    char hello=str.charAt(8);
+	    System.out.print(hello);
+
+	    char bar=str.charAt(1);
+	    System.out.print(bar);
+
+	    char bye=str.charAt(10);
+	    System.out.print(bye);
 	}
 }
