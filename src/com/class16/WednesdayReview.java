@@ -78,9 +78,10 @@ public class WednesdayReview {
 	}
 
 	void vowelCountReplaceAll() {
+		System.out.println();
 		String str = "hello world my name Is wEqas";
 		String replace = str.replaceAll("[^aA,eE,iI,oO,uU]", "");
-		System.out.println(replace);
+		System.out.println(replace+",");
 
 	}
 }
