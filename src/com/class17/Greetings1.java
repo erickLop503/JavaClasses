@@ -9,6 +9,7 @@ public class Greetings1 {
 		obj.askHowAreYou1("erick");
 	}
 	
+	//void is a return type, askHowAreYou-method name 
 	void askHowAreYou (String name) {
 		System.out.println("How are you "+name);
 	}
