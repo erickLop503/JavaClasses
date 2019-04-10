@@ -19,19 +19,21 @@ public class Minimum {
 		return min;
 	}
 
-//	static int maxValues(int[] x) {
-//
-//		int max = 0;
-//
-//		for (int y : x) {
-//			if (y > max) {
-//				max = y;
-//			}
-//		}
-//		return max;
-//
-//	}
+	//each for loop
+	static int maxValues(int[] x) {
+
+		int max = 0;
+
+		for (int y : x) {
+			if (y > max) {
+				max = y;
+			}
+		}
+		return max;
+
+	}
 	
+	//for loop 
 	static int maxOfValues(int[] array) {
 
         int max = array[0];
