@@ -1,16 +1,20 @@
 package com.class20;
 
-public class Task1 {
+public class AccessModifiers1 {
 
+	private String name="John";
+	String name1="Bilal";
+	protected String name2="Erick";
+	public String name3="Dan";
 	
 
 	public static void main(String[] args) {
 
-		Task1 obj = new Task1();
+		AccessModifiers obj = new AccessModifiers();
 		String reversed=obj.reverseString("avaJ gninrael era eW");
 		System.out.println(reversed);
 		
-		boolean isPalindrome=obj.isPalinddrome("hello");
+		boolean isPalindrome=obj.isPalindrome("hello");
 		System.out.println(isPalindrome);
 		
 		String[] array =obj.getWordsFromString("Have a good night students");
@@ -59,4 +63,5 @@ public class Task1 {
 		String[] words=str.split(" ");
 		return words;
 	}
+
 }
