@@ -18,13 +18,17 @@ public class Employee {
 		Employee Employee1 = new Employee();
 		Employee1.eID="Waqas";
 		Employee1.salary=1000;
-		Employee1.CEO();
+		Employee1.getEmployeeInfo();
 		
+		Employee Employee2 = new Employee();
+		Employee2.eID="Arrf";
+		Employee2.salary=2000;
+		Employee2.getEmployeeInfo();
 		
 	}
 	
-	static void CEO() {
-		System.out.println("he");
+     void getEmployeeInfo() {
+		System.out.println("CEO "+CEO+" eID is "+eID+" employees salary is "+salary);
 	}
 	
 }
