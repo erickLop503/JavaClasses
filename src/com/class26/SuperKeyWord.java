@@ -4,7 +4,7 @@ public class SuperKeyWord {
 String name="John";
     
     public void sayName() {
-        System.out.println("My name is "+name);
+       // System.out.println("My name is "+name);
     }
 
 }
@@ -17,7 +17,7 @@ class ChildOfSuperKeyword extends SuperKeyWord{
     }
     
     public void callingMethods () {
-    	sayName();//this.sayName
+    	//sayName();//this.sayName
     	super.sayName();
     }
 

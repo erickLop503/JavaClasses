@@ -3,7 +3,7 @@ package com.class21;
 public class Car {
 
 	public String color;//null for String
-	public static int totalCars;//0 for integer
+	public static int totalCars;//0 for integer//0+1=1+1=2
 	
 	public static void main(String[] args) {
 		

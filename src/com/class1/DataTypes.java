@@ -17,7 +17,7 @@ public class DataTypes {
 		//numbers with decimals
 		
 		float f=2.3f;
-		
+		System.out.println(f);
 		double d=3.48488589;
 	
 		// character

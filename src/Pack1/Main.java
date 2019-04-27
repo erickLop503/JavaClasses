@@ -6,7 +6,8 @@ public class Main {
 
 		
 		Child obj = new Child();
-		obj.m1(0, 0);
+		obj.m1(50, 60);
+		obj.datails();
 	}
 
 	 int a=10;
@@ -20,7 +21,21 @@ class Child extends Main{
 	int b=40;
 	
 	void m1(int a, int b) {
+		
 		this. a=a;
 		this. b=b;
+		
+
+		System.out.println(a+b);
 	}
+	
+	void datails () {
+		
+		
+		System.out.println(super.a+super.b);
+		
+
+	}
+	
+	
 }
