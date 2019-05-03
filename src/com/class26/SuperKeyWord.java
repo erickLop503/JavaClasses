@@ -17,7 +17,7 @@ class ChildOfSuperKeyword extends SuperKeyWord{
     }
     
     public void callingMethods () {
-    	//sayName();//this.sayName
+    	sayName();//this.sayName;
     	super.sayName();
     }
 

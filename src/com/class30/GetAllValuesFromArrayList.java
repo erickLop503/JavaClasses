@@ -28,7 +28,10 @@ public class GetAllValuesFromArrayList {
 		 
 		 //3 way using iterator
 		 System.out.println("--------------------");
-		Iterator<String> it= name.iterator();
+		
+		 
+		 
+		 Iterator<String> it= name.iterator();
 		//boolean check=it.hasNext();
 		
 		while(it.hasNext()) {
