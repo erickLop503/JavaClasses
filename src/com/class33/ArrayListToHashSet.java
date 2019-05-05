@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class KeyAndValueUsingEntrySet1 {
+public class ArrayListToHashSet {
 
 	public static void main(String[] args) {
 		
